@@ -1,0 +1,23 @@
+# PARA CONTAR DE 1 A 10
+c = 1
+while c < 10:
+    print(c)
+    c += 1
+print('fim')
+
+/**************\
+
+#enquanto o valor não for zero o app não finaliza
+
+num = 1
+while num != 0:
+    num = int(input('Digite um valor: '))
+print('fim')
+
+#Para que o app solicite continuar ou não
+
+resp = 'S'
+while resp == 'S':
+    num = int(input('Digite um valor: '))
+    resp = str(input('Quer continuar? S/N] ')).upper()
+print('fim')
