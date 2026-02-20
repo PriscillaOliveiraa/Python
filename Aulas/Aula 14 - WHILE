@@ -21,3 +21,9 @@ while resp == 'S':
     num = int(input('Digite um valor: '))
     resp = str(input('Quer continuar? S/N] ')).upper()
 print('fim')
+
+#GAMBIARRA DO 999
+
+num = 0
+while num != 999:
+    num = int(input('Digite um numero: '))
